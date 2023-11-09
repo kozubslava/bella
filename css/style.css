@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+}
+
+.header{
+  height: 112px;
+  padding: 15px 16px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+}
+
+
+.menu{
+  
+  height: 16px;
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+span{
+  background-color: rgb(143, 133, 133);
+  height: 2px;
+  width: 20px;
+}
+
+.download-add{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main-title{
+  font-size: 16px;
+  padding: 10px;
+  color: rgb(73, 73, 73);
+}
+
+.description{
+  font-size: 36px;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.inorm{
+  font-size: 24px;
+  padding: 20px;
+  color: rgb(73, 73, 73);
+  
+}
+
+.btn-pleystore{
+  background-color:#FA4A0C;
+  color: white;
+  width: 236px;
+  height: 68px;
+  border-radius: 30px;
+  padding: 16px;
+  font-size: 24px;
+  margin: 10px;
+}
+
+.btn-app{
+  width: 236px;
+  height: 68px;
+  color:#FA4A0C;
+  background-color: white;
+  border: 1px solid #FA4A0C;
+  border-radius: 30px;
+  padding: 16px;
+  font-size: 24px;
+  margin: 10px;
+}
