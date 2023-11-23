@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header{
@@ -19,7 +20,7 @@
   width: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; 
 }
 
 span{
@@ -28,7 +29,7 @@ span{
   width: 20px;
 }
 
-.download-add{
+.hero{
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -74,4 +75,40 @@ span{
   padding: 16px;
   font-size: 24px;
   margin: 10px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 28px;
+}
+
+.info-title{
+  font-size: 24px;
+
+}
+.create-account,
+.shopping {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.title-create-account,
+.shopping-title{
+  font-size: 24px;
+  font-weight: 600;
+  color: #FA4A0C;
+  padding: 30px;
+}
+
+.fcreate-irst-step,
+.shopping-options-1{
+  font-size:40px;
+  font-weight: 700;
+}
+
+.create-second-step,
+.shopping-options-1{
+  font-size: 24px;
 }
