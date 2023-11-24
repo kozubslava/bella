@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* body{
+  overflow: hidden;
+} */
+
+.container {
+  max-width: 1330px;
+  margin: auto;
+}
+
+
+.btn-pleystore{
+  background-color:#FA4A0C;
+  color: white;
+  width: 236px;
+  height: 68px;
+  border-radius: 30px;
+  padding: 16px;
+  font-size: 24px;
+  margin: 10px;
+}
+
+.btn-app{
+  width: 236px;
+  height: 68px;
+  color:#FA4A0C;
+  background-color: white;
+  border: 1px solid #FA4A0C;
+  border-radius: 30px;
+  padding: 16px;
+  font-size: 24px;
+  margin: 10px;
+}

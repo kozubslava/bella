@@ -1,0 +1,21 @@
+.header{
+  height: 112px;
+  padding: 15px 16px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu{
+  height: 16px;
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+
+span{
+  background-color: rgb(143, 133, 133);
+  height: 2px;
+  width: 20px;
+}
