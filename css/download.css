@@ -1,0 +1,32 @@
+.download{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #252B42;
+  padding: 120px 40px;
+
+}
+
+.download .title{
+  color: #FFF;
+font-size: 40px;
+font-weight: 700;
+line-height: 57px; 
+margin-bottom: 20px;
+}
+
+.download .description{
+  color: #BDBDBD;
+font-size: 24px;
+font-weight: 500;
+line-height: 38px; 
+letter-spacing: 0.2px;
+margin-bottom: 62px;
+}
+
+.download .btn-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+

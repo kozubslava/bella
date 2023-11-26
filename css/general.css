@@ -3,35 +3,45 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-/* body{
-  overflow: hidden;
-} */
-
 .container {
   max-width: 1330px;
   margin: auto;
 }
 
 
-.btn-pleystore{
-  background-color:#FA4A0C;
-  color: white;
-  width: 236px;
-  height: 68px;
-  border-radius: 30px;
-  padding: 16px;
-  font-size: 24px;
-  margin: 10px;
+.btn {
+  padding: 16px 31px;
+  border-radius: 10px;
+  color: #FFF;
+  border: 1px solid #FFF;
+  outline: none;
+  background: none;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px; 
+  letter-spacing: 0.2px;
 }
 
-.btn-app{
-  width: 236px;
-  height: 68px;
-  color:#FA4A0C;
-  background-color: white;
-  border: 1px solid #FA4A0C;
+.btn-large {
   border-radius: 30px;
-  padding: 16px;
   font-size: 24px;
-  margin: 10px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+}
+
+.btn-primary{
+  border-color: #FA4A0C;
+  background-color:#FA4A0C;
+  color: white;
+}
+
+.btn-secondary{
+  color:#FA4A0C;
+  border: 1px solid #FA4A0C;
+}
+
+.btn-long{
+  padding: 16px 45px;
 }

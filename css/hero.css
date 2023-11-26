@@ -24,20 +24,40 @@
   z-index: 2;
 } */
 
-.hero .main-title{
+.hero .headline{
   font-size: 16px;
   padding: 10px;
   color: rgb(73, 73, 73);
 }
 
-.hero .description{
-  font-size: 36px;
-  padding: 10px;
-  font-weight: 700;
+.hero .title{
+  color: #252B42;
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 42.5px; 
+letter-spacing: 0.2px;
+margin-bottom: 17px;
 }
 
-.hero .inorm{
+.hero .description{
+  color: #737373;
+  text-align: center;
   font-size: 24px;
-  padding: 20px;
-  color: rgb(73, 73, 73);  
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  margin-bottom: 57px;
+}
+
+.hero .btn{
+  width: 236px;
+}
+
+.hero .btn-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
 }
